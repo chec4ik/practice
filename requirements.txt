@@ -1,0 +1,21 @@
+Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
+certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
+mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
+mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-service==2.4.0
+numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
+opencv-python==4.10.0.84
+pillow @ file:///C:/b/abs_95ls_qh4c2/croot/pillow_1714398870615/work
+PyQt5==5.15.10
+PyQt5-Qt5==5.15.2
+PyQt5-sip==12.13.0
+PySocks @ file:///C:/ci/pysocks_1605287845585/work
+requests @ file:///C:/b/abs_9c5n24p1y7/croot/requests_1716902867639/work
+torch==1.11.0
+torchaudio==0.11.0
+torchvision==0.12.0
+typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
+urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
