@@ -340,3 +340,5 @@ class MainWindow(QMainWindow):
             raise ValueError("Радиус круга должен быть положительным числом и в пределах границ изображения")
 
         return cv2.circle(image, (center_x, center_y), radius, (0, 0, 255), 2)
+
+
