@@ -1,21 +1,33 @@
-Brotli @ file:///C:/b/abs_3d36mno480/croot/brotli-split_1714483178642/work
-certifi @ file:///C:/b/abs_55jxithrm3/croot/certifi_1717618077850/work/certifi
-charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
-idna @ file:///C:/b/abs_aad84bnnw5/croot/idna_1714398896795/work
-mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
-mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+altgraph==0.17.4
+auto-py-to-exe==2.44.1
+bottle==0.12.25
+bottle-websocket==0.2.9
+cffi==1.16.0
+Eel==0.16.0
+future==1.0.0
+gevent==24.2.1
+gevent-websocket==0.10.1
+greenlet==3.0.3
+importlib_metadata==8.0.0
 mkl-service==2.4.0
-numpy @ file:///C:/Users/dev-admin/mkl/numpy_and_numpy_base_1682982345978/work
 opencv-python==4.10.0.84
-pillow @ file:///C:/b/abs_95ls_qh4c2/croot/pillow_1714398870615/work
+packaging==24.1
+pefile==2023.2.7
+pycparser==2.22
+pyinstaller==6.8.0
+pyinstaller-hooks-contrib==2024.7
+pyparsing==3.1.2
+pypiwin32==223
 PyQt5==5.15.10
 PyQt5-Qt5==5.15.2
 PyQt5-sip==12.13.0
-PySocks @ file:///C:/ci/pysocks_1605287845585/work
-requests @ file:///C:/b/abs_9c5n24p1y7/croot/requests_1716902867639/work
+pywin32==306
+pywin32-ctypes==0.2.2
 torch==1.11.0
 torchaudio==0.11.0
 torchvision==0.12.0
-typing_extensions @ file:///C:/b/abs_0as9mdbkfl/croot/typing_extensions_1715268906610/work
-urllib3 @ file:///C:/b/abs_a7hvzm4y95/croot/urllib3_1718912661242/work
-win-inet-pton @ file:///C:/ci/win_inet_pton_1605306167264/work
+whichcraft==0.6.1
+zipp==3.19.2
+zope.event==5.0
+zope.interface==6.4.post2
+numpy~=1.24.3

@@ -5,7 +5,6 @@ from PyQt5.QtCore import Qt, QTimer
 import cv2
 import numpy as np
 
-
 class MainWindow(QMainWindow):
     """
     Класс MainWindow представляет главное окно приложения для редактирования изображений.
