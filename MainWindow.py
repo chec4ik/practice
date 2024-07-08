@@ -245,8 +245,8 @@ class MainWindow(QMainWindow):
                 raise ValueError("Неверное значение высоты")
             if radius and radius <= 0:
                 raise ValueError("Радиус должен быть положительным числом")
-
-            # Изменяем размер изображения
+            if brightness_value < 0:
+                raise ValueError("Неверное значение яркости")
             if new_width or new_height:
                 if new_width and new_height:
                     resized_image = cv2.resize(self.current_image, (new_width, new_height))
@@ -307,9 +307,13 @@ class MainWindow(QMainWindow):
         Returns:
             numpy.ndarray: Изображение с уменьшенной яркостью.
         """
+        if brightness < 0:
+            raise ValueError("Brightness value should be non-negative")
+
         hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
         h, s, v = cv2.split(hsv)
-        v = np.clip(v - brightness, 0, 255)
+        scale_factor = 1 - brightness / 255.0
+        v = np.clip(v * scale_factor, 0, 255).astype(np.uint8)
         final_hsv = cv2.merge((h, s, v))
         image = cv2.cvtColor(final_hsv, cv2.COLOR_HSV2BGR)
         return image
